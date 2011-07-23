@@ -6,10 +6,7 @@ using namespace std;
 
 // An unsigned char can store 1 Bytes (8bits) of data (0-255)
 typedef unsigned char BYTE;
-void _NOACTION_(){};
 
-const char *cPath = "C:\\Users\\loxa winbox\\Desktop\\Meta-L\\HelloWorldTest.exe";	
-const char *cPathW = "C:\\Users\\loxa winbox\\Desktop\\Meta-L\\HelloWorldTest2.exe";
 
 BYTE *bFileBuffer;			
 FILE *fFile = NULL;	
@@ -43,12 +40,12 @@ long _fFileSize(FILE *file)
 
 void _fOpenRead()
 {
-    if ((fFile = fopen(cPath, "rb+")) == NULL){_NOACTION_();} else {_NOACTION_();}
+    if ((fFile = fopen(cPath, "rb+")) == NULL){;} else {_NOACTION_();}
 }
 
 void _fOpenWrite()
 {
-    if ((fFileW = fopen(cPathW, "wb+")) == NULL){_NOACTION_();} else {_NOACTION_();}
+    if ((fFileW = fopen(cPathW, "wb+")) == NULL){;} else {_NOACTION_();}
 }
 
 void _fWriteFile()
