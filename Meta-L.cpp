@@ -7,6 +7,8 @@ using namespace std;
 // An unsigned char can store 1 Bytes (8bits) of data (0-255)
 typedef unsigned char BYTE;
 
+const char *cPath = "C:\\Users\\loxa winbox\\Desktop\\Meta-L\\HelloWorldTest.exe";	
+const char *cPathW = "C:\\Users\\loxa winbox\\Desktop\\Meta-L\\HelloWorldTest2.exe";
 
 BYTE *bFileBuffer;			
 FILE *fFile = NULL;	
